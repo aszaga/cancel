@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+header nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #099d8d;
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+
+
+}
+
+header nav h2{
+    font-size: 16px;
+    
+}
+
+header nav ul li{
+    display: inline;
+
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 10px;
+}
+
+header section img{
+    width: 100%;
+    height: 550px;
+}
+
+
+/* -------Secciòn Main ----------*/
+
+main{
+    margin-bottom: 60px;
+}
+
+#section2Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#section2Main h2{
+    color: #099d8d;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+#section2Main h4{
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-size: 20px;
+}
+
+#section2Main p{
+    font-family: 'Open Sans', sans-serif;
+    color: #54585A;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.div1Section2Main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+
+.div1Section2Main img{
+    width: 278px;
+    height: 278px;
+    border: 3px solid #b8b8b9;
+    border-radius: 5px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.div2Section2Main{
+    width: 439px;
+}
+
+.divRedesSociales a{
+    display: inline;
+    color: #099d8d;
+    margin: 10px;
+}
+
+/* ---------- Secciòn Footer ---------- */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #b8b8b9;
+    padding: 30px;
+    
+
+}
+footer p{
+    font-family: 'Open Sans', sans-serif;
+    color: #b8b8b9;
+    font-size: 14px; 
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #54585A;
+    font-size: 14px;
+}
